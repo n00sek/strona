@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Szyfr</title>
+    <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
@@ -65,9 +66,10 @@
         } 
     </script>
 
-    <input id='o_ile' type="number">
-    <input id="tekst"> <button onclick="szyfr()"> Zakoduj</button><br>
-
+        <label>   Wpisz numer przesunięcia (może być ujemny):  <input id='o_ile' type="number" autofocus>  </label>
+        <label>  Wpisz dowolny ciąg znaków:   <input id="tekst" placeholder="Np. BaB">    <button onclick="szyfr()"> Szyfruj  </button>   </label>
+        <br>
+            
     <p id="wynik"></p>
 
 </body>
