@@ -35,3 +35,17 @@ h1 {
 #zawar {
     margin 10px;
 }
+
+html, body {
+    margin:0;
+    padding:0;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  body {
+     min-height: 100%;
+    position:relative;
+  }
