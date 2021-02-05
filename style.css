@@ -23,7 +23,7 @@ h1 {
 }
 
 #footer {
-    height: 4%;
+    height: 5%;
     width: 99.5%;
     background-color: rgb(63, 63, 63);
     text-align: center;
@@ -42,10 +42,14 @@ html, body {
   }
 
   html {
-    height: 50%;
+    height: 100%;
   }
 
   body {
-     min-height: 50%;
+     min-height: 100%;
     position:relative;
   }
+
+#tekst, #o_ile {
+    width: 50px;
+}
