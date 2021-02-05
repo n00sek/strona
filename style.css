@@ -53,3 +53,7 @@ html, body {
 #tekst, #o_ile {
     width: 50px;
 }
+
+button {
+    background-color: orange;
+}
