@@ -58,5 +58,12 @@ button {
     background-color: orange;
     outline: none;
     border-radius: 5px 5px;
+    border: 5px solid orange;
+}
+
+input {
+    outline: none;
     border: none;
+    border-bottom: 3px solid orange;
+    background-color: orange;
 }
