@@ -66,4 +66,5 @@ input {
     border: none;
     border-bottom: 3px solid orange;
     background-color: black;
+    padding: 10px;
 }
