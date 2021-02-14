@@ -62,6 +62,18 @@ button {
     border-radius: 5px 5px;
     border: 5px solid orange;
     cursor: pointer;
+    animation: klik 0.3s ease;
+}
+
+@keyframes klik{
+    from {
+       background-color: orange;
+       border: 5px solid orange;
+    }
+    to {
+       background-color: rgb(255, 214, 153)
+       border: none;
+    }
 }
 
 input {
@@ -76,3 +88,5 @@ input {
 input, textarea {
     color: orange;
 }
+
+
