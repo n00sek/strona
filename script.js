@@ -12,5 +12,5 @@ function szyfr()
                 else if((index<=90 && index >=65 && liczba<65) || (index<=122 && index>=97 && liczba<97)) wynik += String.fromCharCode(liczba + 26);
                 else if(index == 32) wynik += String.fromCharCode(index);
             }
-            document.getElementById('wynik').innerText = wynik;
+            document.getElementById('wynik').innerText = wynik.substr(9,i);
         }
